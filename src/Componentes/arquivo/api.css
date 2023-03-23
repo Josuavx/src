@@ -1,0 +1,25 @@
+.pt{
+    max-width: 60px;
+    border-color: black;
+}.bt{
+    border-radius: 10px;
+    
+}
+:root {
+    --cor-primaria-success: rgb(75, 200, 138);
+    --cor-hover-success: rgb(116, 158, 137);
+    --cor-secundaria-success: rgb(27, 66, 50);
+    
+    --cor-primaria-info: rgb(61, 157, 246);
+    --cor-hover-info: rgb(116, 134, 158);
+    --cor-secundaria-info: rgb(31, 62, 88);
+
+    --cor-primaria-danger: rgb(200, 75, 75);
+    --cor-hover-danger: rgb(158, 116, 116);
+    --cor-secundaria-danger: rgb(58, 22, 22);
+}
+.bt {
+    background-color: var(--cor-primaria-success);
+    outline: none;
+    color: var(--cor-secundaria-success)
+}

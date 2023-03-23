@@ -1,0 +1,15 @@
+.app-header {
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-height: 150px;
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    margin-left: 180px;
+}
